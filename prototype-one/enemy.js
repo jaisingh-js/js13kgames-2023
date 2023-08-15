@@ -9,7 +9,7 @@ class Enemy {
 
     update(dt) {
         if(this.x > 0) {
-            this.x -= 100 * dt;
+            this.x -= 50 * dt;
         }
     }
 
